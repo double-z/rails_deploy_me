@@ -18,7 +18,6 @@ gem "autotest-fsevent", :group => :test_mac, :platforms => :ruby
 gem "wirble", :group => :development
 gem "awesome_print", :require => "ap", :group => :developemnt
 gem "interactive_editor", :group => :development
-gem "capistrano", :group => :development
-gem "capistrano-ext", :require => nil, :group => :development
-gem "capistrano-lastmile", :require => nil, :git => "git://github.com/fnichol/capistrano-lastmile.git", :group => :development
+gem "capistrano-fanfare", :require => nil, :git => "git://github.com/fnichol/capistrano-fanfare.git", :group => :development
+gem "campy", :require => nil, :group => :development
 gem "ffi-ncurses", :group => :development, :platforms => :jruby
